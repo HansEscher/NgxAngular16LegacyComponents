@@ -10,8 +10,7 @@
   },
   "private": false,
   "files": [
-    "dist/**/*",
-    "index.ts"
+    "dist/**/*"
   ],
   "fesm2022": "dist/test-component/fesm2022/owner-test-component.mjs",
   "esm2022": "dist/test-component/esm2022/owner-test-component.mjs",

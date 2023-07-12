@@ -1,0 +1,4 @@
+/node_modules
+/projects/test-component/node_modules
+/.idea
+/.angular
