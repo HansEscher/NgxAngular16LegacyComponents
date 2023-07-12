@@ -1,6 +1,6 @@
 {
   "name": "angular-legacy-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +9,9 @@
     "test": "ng test"
   },
   "private": false,
+  "files": [
+    "dist/**/*"
+  ],
   "dependencies": {
     "@angular/animations": "^16.1.0",
     "@angular/common": "^16.1.0",
