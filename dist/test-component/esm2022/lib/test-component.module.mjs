@@ -1,5 +1,8 @@
-import { NgModule } from '@angular/core';
 import { TestComponentComponent } from './test-component.component';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { SplitComponent } from './split.component';
+import { SplitAreaDirective } from './split-area.directive';
 import * as i0 from "@angular/core";
 export class TestComponentModule {
     static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.1.4", ngImport: i0, type: TestComponentModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
@@ -18,4 +21,17 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.1.4", ngImpor
                     ]
                 }]
         }] });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGVzdC1jb21wb25lbnQubW9kdWxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vcHJvamVjdHMvdGVzdC1jb21wb25lbnQvc3JjL2xpYi90ZXN0LWNvbXBvbmVudC5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUN6QyxPQUFPLEVBQUUsc0JBQXNCLEVBQUUsTUFBTSw0QkFBNEIsQ0FBQzs7QUFjcEUsTUFBTSxPQUFPLG1CQUFtQjs4R0FBbkIsbUJBQW1COytHQUFuQixtQkFBbUIsaUJBUjVCLHNCQUFzQixhQUt0QixzQkFBc0I7K0dBR2IsbUJBQW1COzsyRkFBbkIsbUJBQW1CO2tCQVYvQixRQUFRO21CQUFDO29CQUNSLFlBQVksRUFBRTt3QkFDWixzQkFBc0I7cUJBQ3ZCO29CQUNELE9BQU8sRUFBRSxFQUNSO29CQUNELE9BQU8sRUFBRTt3QkFDUCxzQkFBc0I7cUJBQ3ZCO2lCQUNGIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcclxuaW1wb3J0IHsgVGVzdENvbXBvbmVudENvbXBvbmVudCB9IGZyb20gJy4vdGVzdC1jb21wb25lbnQuY29tcG9uZW50JztcclxuXHJcblxyXG5cclxuQE5nTW9kdWxlKHtcclxuICBkZWNsYXJhdGlvbnM6IFtcclxuICAgIFRlc3RDb21wb25lbnRDb21wb25lbnRcclxuICBdLFxyXG4gIGltcG9ydHM6IFtcclxuICBdLFxyXG4gIGV4cG9ydHM6IFtcclxuICAgIFRlc3RDb21wb25lbnRDb21wb25lbnRcclxuICBdXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBUZXN0Q29tcG9uZW50TW9kdWxlIHsgfVxyXG4iXX0=
+export class AngularSplitModule {
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.1.4", ngImport: i0, type: AngularSplitModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
+    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "16.1.4", ngImport: i0, type: AngularSplitModule, declarations: [SplitComponent, SplitAreaDirective], imports: [BrowserModule], exports: [SplitComponent, SplitAreaDirective] }); }
+    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "16.1.4", ngImport: i0, type: AngularSplitModule, imports: [BrowserModule] }); }
+}
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.1.4", ngImport: i0, type: AngularSplitModule, decorators: [{
+            type: NgModule,
+            args: [{
+                    imports: [BrowserModule],
+                    declarations: [SplitComponent, SplitAreaDirective],
+                    exports: [SplitComponent, SplitAreaDirective],
+                }]
+        }] });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGVzdC1jb21wb25lbnQubW9kdWxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vcHJvamVjdHMvdGVzdC1jb21wb25lbnQvc3JjL2xpYi90ZXN0LWNvbXBvbmVudC5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLHNCQUFzQixFQUFFLE1BQU0sNEJBQTRCLENBQUM7QUFDcEUsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUN6QyxPQUFPLEVBQUUsYUFBYSxFQUFFLE1BQU0sMkJBQTJCLENBQUM7QUFDMUQsT0FBTyxFQUFFLGNBQWMsRUFBRSxNQUFNLG1CQUFtQixDQUFDO0FBQ25ELE9BQU8sRUFBRSxrQkFBa0IsRUFBRSxNQUFNLHdCQUF3QixDQUFDOztBQWE1RCxNQUFNLE9BQU8sbUJBQW1COzhHQUFuQixtQkFBbUI7K0dBQW5CLG1CQUFtQixpQkFSNUIsc0JBQXNCLGFBS3RCLHNCQUFzQjsrR0FHYixtQkFBbUI7OzJGQUFuQixtQkFBbUI7a0JBVi9CLFFBQVE7bUJBQUM7b0JBQ1IsWUFBWSxFQUFFO3dCQUNaLHNCQUFzQjtxQkFDdkI7b0JBQ0QsT0FBTyxFQUFFLEVBQ1I7b0JBQ0QsT0FBTyxFQUFFO3dCQUNQLHNCQUFzQjtxQkFDdkI7aUJBQ0Y7O0FBU0QsTUFBTSxPQUFPLGtCQUFrQjs4R0FBbEIsa0JBQWtCOytHQUFsQixrQkFBa0IsaUJBSGQsY0FBYyxFQUFFLGtCQUFrQixhQUR2QyxhQUFhLGFBRWIsY0FBYyxFQUFFLGtCQUFrQjsrR0FFakMsa0JBQWtCLFlBSm5CLGFBQWE7OzJGQUlaLGtCQUFrQjtrQkFMOUIsUUFBUTttQkFBQztvQkFDUixPQUFPLEVBQUUsQ0FBQyxhQUFhLENBQUM7b0JBQ3hCLFlBQVksRUFBRSxDQUFDLGNBQWMsRUFBRSxrQkFBa0IsQ0FBQztvQkFDbEQsT0FBTyxFQUFFLENBQUMsY0FBYyxFQUFFLGtCQUFrQixDQUFDO2lCQUM5QyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFRlc3RDb21wb25lbnRDb21wb25lbnQgfSBmcm9tICcuL3Rlc3QtY29tcG9uZW50LmNvbXBvbmVudCc7XHJcbmltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XHJcbmltcG9ydCB7IEJyb3dzZXJNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9wbGF0Zm9ybS1icm93c2VyJztcclxuaW1wb3J0IHsgU3BsaXRDb21wb25lbnQgfSBmcm9tICcuL3NwbGl0LmNvbXBvbmVudCc7XHJcbmltcG9ydCB7IFNwbGl0QXJlYURpcmVjdGl2ZSB9IGZyb20gJy4vc3BsaXQtYXJlYS5kaXJlY3RpdmUnO1xyXG5cclxuXHJcbkBOZ01vZHVsZSh7XHJcbiAgZGVjbGFyYXRpb25zOiBbXHJcbiAgICBUZXN0Q29tcG9uZW50Q29tcG9uZW50XHJcbiAgXSxcclxuICBpbXBvcnRzOiBbXHJcbiAgXSxcclxuICBleHBvcnRzOiBbXHJcbiAgICBUZXN0Q29tcG9uZW50Q29tcG9uZW50XHJcbiAgXVxyXG59KVxyXG5leHBvcnQgY2xhc3MgVGVzdENvbXBvbmVudE1vZHVsZSB7IH1cclxuXHJcblxyXG5ATmdNb2R1bGUoe1xyXG4gIGltcG9ydHM6IFtCcm93c2VyTW9kdWxlXSxcclxuICBkZWNsYXJhdGlvbnM6IFtTcGxpdENvbXBvbmVudCwgU3BsaXRBcmVhRGlyZWN0aXZlXSxcclxuICBleHBvcnRzOiBbU3BsaXRDb21wb25lbnQsIFNwbGl0QXJlYURpcmVjdGl2ZV0sXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBBbmd1bGFyU3BsaXRNb2R1bGUge1xyXG59XHJcbiJdfQ==
