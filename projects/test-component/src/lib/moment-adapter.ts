@@ -15,7 +15,7 @@ import { MAT_DATE_LOCALE } from '@angular/material/core';
 // TODO(mmalerba): See if we can clean this up at some point.
 import * as _moment from 'moment';
 import { default as _rollupMoment, Moment, MomentFormatSpecification, MomentInput } from 'moment';
-import { NgxMatDateAdapter } from '../datetime-picker/core/date-adapter';
+import { NgxMatDateAdapter } from './date-adapter';
 
 const moment = _rollupMoment || _moment;
 
